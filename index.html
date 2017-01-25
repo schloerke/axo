@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html>
+  <head>
+    <title>Delta Nu 50th</title>
+    
+    <link rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css"> 
+    <link rel="stylesheet" href="./style/style.css" type="text/css"> 
+    
+    <!-- Fancy Box -->
+    <script src="./js/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="./js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    <script type="text/javascript" src="./js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <link rel="stylesheet" type="text/css" href="./js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+    
+    
+    <script type="text/javascript" src="./js/init.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $("a#star_help").fancybox();
+      });
+      
+    </script>
+  
+    
+  </head>
+  <body class="yui-skin-sam">
+    <div id="doc2" class="yui-t3"> 
+      
+      <div id="hd" role="banner"><img alt="" border="0" src="./images/celebrate.png"></div> 
+      <div id="bd" role="main"> 
+        <div id="yui-main"> 
+          <div class="yui-b" id="content">
+            <div class="yui-g"> 
+            <div class="red_box center_text">
+              <h1>Weekend Schedule</h1>
+              <h2>Friday, September 16, 2011</h2>
+              <h3>Registration - Chapter House, <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=301+Lynn+Avenue,+Ames,+IA&aq=&sll=42.007628,-93.582466&sspn=0.014621,0.020127&gl=us&ie=UTF8&hq=&hnear=301+Lynn+Ave,+Ames,+Iowa+50014&z=17" target="_blank">301 Lynn Ave</a>. 3-5 p.m.</h3>
+              <br />
+              <h3>Welcome Reception - Reiman Gardens 6-9 p.m.</h3>
+              Hors d'oeurves, Cash Bar<br />
+              Two complimentary drink tickets provided<br/>
+              Business Casual Attire<br />
+              <br />
+              <h2>Saturday, September 17, 2011</h2>
+              <h3>House Tours - <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=301+Lynn+Avenue,+Ames,+IA&aq=&sll=42.007628,-93.582466&sspn=0.014621,0.020127&gl=us&ie=UTF8&hq=&hnear=301+Lynn+Ave,+Ames,+Iowa+50014&z=17" target="_blank">301 Lynn Ave</a>.</h3><h3>Campus Tours - Self Guided</h3><h3>1-4 p.m.</h3>
+              <br />
+              <h3>Evening Banquet - <a href="http://maps.google.com/maps?f=d&source=s_d&saddr=301+Lynn+Ave,+Ames,+Iowa+50014&daddr=Scheman+Building&geocode=FWwugQIdhw9r-imz8IiqoHDuhzEBCrjhPcG2Dw%3BFYQygQIdKjdr-iln03DjnXDuhzH371FHGGRWKQ&gl=us&hl=en&mra=ls&sll=42.02046,-93.646969&sspn=0.007309,0.010064&ie=UTF8&ll=42.021163,-93.641893&spn=0.007309,0.010064&z=17" target="_blank">Scheman Building</a></h3>
+              6-7pm Cocktail Hour with cash bar<br />
+              7-10pm Dinner Buffet &amp; Program<br />
+              Cocktail Attire
+            </div>
+          </div> 
+          <div class="yui-g" > 
+            <div class="yui-u first"> 
+              <div class="red_box twofifty">
+                <h1>Register</h1>
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" id="registration_form">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="L9QF3PX7R96DA">
+                <table>
+                  <tr>
+                    <td><input type="hidden"  name="on1" value="Name">Name:&nbsp;</td>
+                    <td><input type="text"    name="os1" maxlength="60" id="registration_name"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="hidden"  name="on2" value="Year">Initiation Year:&nbsp;</td>
+                    <td><select               name='os2' id="init"></select></td>
+                  </tr><tr>
+                    <td><input type="hidden"  name="on3" value="Address">Address:&nbsp;</td>
+                    <td><input type="text"    name="os3" maxlength="60" id="registration_address"></td>
+                  </tr><tr>
+                    <td><input type="hidden"  name="on4" value="City_State">City, State:&nbsp;</td>
+                    <td>
+                      <input type="text"      name="os4"  maxlength="60" id="registration_city"><!-- size="10" -->
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><input type="hidden"  name="on5" value="Email">Email:&nbsp;</td>
+                    <td><input type="text"    name="os5" maxlength="60" id="registration_email"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="hidden" name="on0" value="Guest Count">Guest Count</td>
+                    <td>
+                      <select name="os0" id="guest_drop">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr id="g_names">
+                    <td><input type="hidden"  name="on6" value="Guests" id="registration_guests_title">Guest Names:&nbsp;</td>
+                    <td><input type="text"    name="os6" maxlength="60" id="registration_guests"></td>
+                  </tr>
+                  <tr><td colspan=2 id="comma_text">(Comma Separated Names)</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;&nbsp;</td><td>&nbsp;&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>$120 per person&nbsp;&nbsp;</td>
+                    <td>
+                      <input type="hidden" name="currency_code" value="USD">
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to payonline!">
+                    </td>
+                  </tr>
+                </table>
+                
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+
+              </div>         
+            <!-- YOUR DATA GOES HERE --> 
+            </div>
+            <div class="yui-u"> 
+              <div class="red_box twofifty">
+                <div class="top_right">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                  ">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+                
+                <h1>Stars <a class="help" id="star_help" href="./stars.html">What is this?</a></h1>
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" id="stars_form">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="3QPEQ6PRML994">
+                  <table>
+                    <tr>
+                      <td><input type="hidden"  name="on0" value="To">To:&nbsp;</td>
+                      <td><input type="text"    name="os0" maxlength="60" id="stars_to"></td>
+                    </tr>
+                    <tr>
+                      <td><input type="hidden"  name="on1" value="From">From:&nbsp;</td>
+                      <td><input type="text"    name="os1" maxlength="60" id="stars_from"></td>
+                    </tr>
+                    <tr>
+                      <td><label for='quantity'>Quantity:&nbsp;</label></td>
+                      <td><select name='quantity' id="quantity_stars" ></select></td>
+                    </tr>
+                  </table>
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+                <br />
+                <br />
+                <h1>Donate</h1>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="donate_form">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="E3MFFPPGA9WHL">
+                  <table>
+                    <tr>
+                      <td><input type="hidden"  name="on0" value="From" >From:&nbsp;&nbsp;</td>
+                      <td><input type="text"    name="os0" maxlength="60" id="donate_from"></td>
+                    </tr>
+                    <!-- <tr>
+                      <td><label for='donate_amount'>Donate: $</label></td>
+                      <td>
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="text" name="amount" value="100.00" maxlength="10">
+                      </td>
+                    </tr> -->
+                  </table>
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+              </div>
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+      <div class="yui-b" id="left_bar">
+        <div class="red_box">
+          <table>
+            <tr>
+              <td colspan=2><h1>Hotel Accommodations</h1></td>
+            </tr><tr>  
+              <td>Reserved rooms expire&nbsp;&nbsp;</td>
+              <td>August 16, 2011</td>
+            </tr><tr>  
+              <td><span class="underline">Reservation Name</span></td><td><span class="underline">"Alpha Chi Omega"</span></td>
+            </tr><tr>  
+              <td><a href="http://maps.google.com/maps?f=d&source=s_d&saddr=1325+Dickinson+Avenue,+Ames,+IA+50014-5568+(Hilton+Garden+Inn+Ames+Hotel)&daddr=301+Lynn+Avenue,+Ames,+IA&hl=en&geocode=FVcKgQIdsIRq-iGC60G7QCJhsg%3BFWwugQIdhw9r-imz8IiqoHDuhzEBCrjhPcG2Dw&gl=us&mra=pr&sll=42.014452,-93.659992&sspn=0.029621,0.044932&ie=UTF8&ll=42.011172,-93.682041&spn=0.014811,0.022466&z=16" target="_blank">Hilton Garden Inn</a></td>
+              <td>515-569-4109</td>
+            </tr><tr>  
+              <td><a href="http://maps.google.com/maps?f=d&source=s_d&saddr=2609+University+Boulevard,+Ames,+Iowa+50010&daddr=301+Lynn+Avenue,+Ames,+IA&hl=en&geocode=FUTagAIdkSZr-imnbQ9mQHruhzEk3R3g--SZdw%3BFWwugQIdhw9r-imz8IiqoHDuhzEBCrjhPcG2Dw&gl=us&mra=ls&sll=42.021325,-93.639445&sspn=0.014809,0.022466&ie=UTF8&ll=41.998818,-93.640278&spn=0.003704,0.005617&z=18" target="_blank">Holiday Inn</a></td>
+              <td>515-268-8808</td>
+            </tr><tr>  
+              <td><a href="http://maps.google.com/maps?f=d&source=s_d&saddr=Hampton+Inn&daddr=301+Lynn+Avenue,+Ames,+IA&hl=en&geocode=FUEHgQIdaBBs-iEKL6verEIYlCnxKKEsTWXuhzG3LEJyqeW4iQ%3BFWwugQIdhw9r-imz8IiqoHDuhzEBCrjhPcG2Dw&gl=us&mra=ls&sll=41.998818,-93.640278&sspn=0.003704,0.005617&ie=UTF8&ll=42.011295,-93.586392&spn=0.014811,0.022466&z=16" target="_blank">Hampton Inn</a></td>
+              <td>515-239-9999</td>
+            </tr><tr>  
+              <td>&nbsp;</td><td>&nbsp;</td>
+            </tr><tr>  
+              <td>&nbsp;</td><td>&nbsp;</td>
+            </tr><tr>  
+              <td colspan="2"<h1>Other Hotels in Area</h1></td>
+            </tr><tr>  
+              <td><a href="http://maps.google.com/maps?f=d&source=s_d&saddr=Gateway+Hotel&daddr=301+Lynn+Avenue,+Ames,+IA&hl=en&geocode=FX_igAIdYB5r-iH__tngse1fVCnr3XxeFXruhzHSK6b4kpo7JA%3BFWwugQIdhw9r-imz8IiqoHDuhzEBCrjhPcG2Dw&gl=us&mra=ls&sll=42.011295,-93.586392&sspn=0.014811,0.022466&ie=UTF8&ll=42.001138,-93.644414&spn=0.007407,0.011233&z=17" target="_blank">Gateway Hotel</a></td>
+              <td>800-367-2637</td>
+            </tr><tr>  
+              <td><a href="http://maps.google.com/maps?f=d&source=s_d&saddr=1605+South+Dayton+Avenue,+Ames,+IA+50010+(Comfort+Inn)&daddr=301+Lynn+Avenue,+Ames,+IA&geocode=FeT6gAIdyw1s-iHKzes4Pal4YA%3BFWwugQIdhw9r-imz8IiqoHDuhzEBCrjhPcG2Dw&gl=us&hl=en&mra=pd&sll=42.053244,-93.595619&sspn=0.115226,0.179729&ie=UTF8&ll=42.007628,-93.582466&spn=0.014812,0.022466&z=16" target="_blank">Comfort Inn</a></td>
+              <td>515-232-0689</td>
+            </tr><tr>  
+              <td><a href="http://maps.google.com/maps?f=d&source=s_d&saddr=Memorial+union&daddr=301+Lynn+Avenue,+Ames,+IA&geocode=FU8-gQIdcxNr-ik76DlCoXDuhzEe1Tdb-hh-hQ%3BFWwugQIdhw9r-imz8IiqoHDuhzEBCrjhPcG2Dw&gl=us&hl=en&mra=ls&sll=42.007628,-93.582466&sspn=0.014812,0.022466&ie=UTF8&z=17" target="_blank">Hotel MU</a></td>
+              <td>515-269-6848</td>
+            </tr>
+          </table>
+        </div>
+        <div class="red_box">
+          <h1>Contact Information</h1>
+Delta Nu 50th Anniversary<br />
+Attn: Alisha King <br />
+P.O. Box 1337<br />
+Ames, IA 50014 <br />
+<a href="mailto:deltanu50@gmail.com">deltanu50@gmail.com</a>
+        </div>
+        <div><img class='lyre' src="./images/lyrecolorsm.jpg"></div>
+      </div> 
+      <div id="ft" role="contentinfo">
+        <!-- <p>Footer</p> -->
+        <center>
+          <img src="./images/tag_sm.png">
+        </center>
+      </div> 
+    </div>
+    </body>
+    
+  </body>
+</html>
+
+

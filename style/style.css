@@ -1,0 +1,88 @@
+.help {
+  margin: 0;
+  padding: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: #BBBBBB;
+  font-size: 0.6em;
+}
+
+
+#doc2 {
+  margin: auto; /* center in viewport */
+  width: 960px;
+  padding: 20px;
+  border: 1px solid #b58a44;
+  vertical-align: top;
+}
+
+#left_bar {
+  vertical-align: top;
+}
+
+dd {
+  margin-left: 2em;
+}
+
+h1 {
+  font-weight:bold;
+  color: #9fa374;
+  font-size: 1.5em;
+  margin-bottom: 3px;
+}
+
+h2 {
+  font-weight:bold;
+  text-decoration:underline;
+/*        color: #475a2e;*/
+  font-size: 1.35em;
+  margin-bottom: 2px;
+}
+
+h3 {
+/*        font-weight:bold;*/
+/*        color: #475a2e;*/
+  font-size: 1.25em;
+  margin-bottom: 1px;
+}
+
+img {
+  padding-top:5px;
+}
+
+.lyre {
+  margin-top: 10px;
+  margin-left: 61px;
+}
+
+.center_text {
+  text-align: center;
+}
+
+.underline {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.red_box {
+  border: 5px solid #c74a5d;
+  padding: 10px;
+  margin: 5px 2px;
+}
+.twofifty {
+  height: 250px;
+  position: relative;
+}
+
+#main {
+  display: inline-block;
+  width: 700px;
+  border: 5px solid #76141a;
+  padding: 10px 10px;
+}
+
+.top_right {
+  position: absolute;
+  top:0px;
+  right:0px;
+}
